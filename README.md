@@ -2,7 +2,7 @@
 
 ![OpenSearch Logo](https://opensearch.org/assets/img/opensearch-logo-themed.svg)
 
-A curated list of awesome resources for OpenSearch AI integrations, frameworks, and tools. Focused on generative AI, vector search, agents, and related technologies.
+A curated list of awesome resources for OpenSearch AI integrations, frameworks, and tools. Focused on generative AI, agents, and related technologies.  We aren't trying to cover the vector space or the hybrid query space.
 
 :star: Star us on GitHub — it helps!
 
@@ -14,6 +14,7 @@ This list was inspired by [awesome-search](https://github.com/frutik/awesome-sea
 - [Blog Posts](#blog-posts)
 - [Documentation](#documentation)
 - [Tutorials](#tutorials)
+- [Video Content](#video-content)
 - [Projects](#projects)
 - [Related Lists](#related-lists)
 
@@ -56,12 +57,22 @@ This list was inspired by [awesome-search](https://github.com/frutik/awesome-sea
 
 ## Tutorials
 
+* [OpenSearch ML Quickstart](https://github.com/Jon-AtAWS/opensearch-ml-quickstart) - A repository with examples and demos for getting started with ML in OpenSearch
+* [RAG Tutorials](https://docs.opensearch.org/latest/tutorials/gen-ai/rag/index/) - Collection of ML tutorials showing how to implement RAG with different models and platforms
+* [Zero to RAG: A Quick OpenSearch Vector Database and DeepSeek Integration Guide](https://opensearch.org/blog/deepseek-integration-rag/) - A practical guide for setting up a RAG system using OpenSearch and DeepSeek model in just 5 minutes
+* [Build Conversational AI Search with Amazon OpenSearch Service](https://aws.amazon.com/blogs/big-data/build-conversational-ai-search-with-amazon-opensearch-service/) - Explains how to implement conversational search using OpenSearch's agents and tools feature
+* [Power Neural Search with AI/ML Connectors in Amazon OpenSearch Service](https://aws.amazon.com/blogs/big-data/power-neural-search-with-ai-ml-connectors-in-amazon-opensearch-service/) - Demonstrates how to configure AI/ML connectors to external models through the OpenSearch Service console
 * [Agentic Search LLM Generated Type](https://github.com/opensearch-project/ml-commons/blob/main/docs/tutorials/agentic_search/agentic_search_llm_generated_type.md) - Using LLMs to generate search types
 * [Agentic Memory with Strands Agent](https://github.com/opensearch-project/ml-commons/blob/main/docs/tutorials/agentic_memory/agentic_memory_with_strands_agent.md) - Implementing memory for agents
+
+## Video Content
+
+* [RAG with OpenSearch: A Crash Course for Building RAG Applications](https://www.youtube.com/watch?v=5gNpCdqAA9I) - Hands-on webinar covering the complete RAG pipeline from data ingestion to generating answers with LLMs
 
 ## Related Projects
 
 * [Sycamore](https://sycamore.readthedocs.io/en/stable/sycamore/get_started/concepts.html) - A framework for building AI applications with OpenSearch
+* [AWS Memory-Augmented Agents](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/memory-augmented-agents.html) - Agents enhanced with memory capabilities that can use OpenSearch as long-term storage
 
 ## Related Lists
 
