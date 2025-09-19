@@ -36,6 +36,8 @@ This list was inspired by [awesome-search](https://github.com/frutik/awesome-sea
 * [Introducing MCP in OpenSearch](https://opensearch.org/blog/introducing-mcp-in-opensearch/) - Overview of the Multi-model Computation Protocol
 * [OpenSearch Generative AI](https://opensearch.org/blog/opensearch-generative-ai/) - Introduction to generative AI capabilities
 * [Unlocking Agentic AI Experiences with OpenSearch](https://opensearch.org/blog/unlocking-agentic-ai-experiences-with-opensearch/) - Building AI agents with OpenSearch
+* [Tarun Agarwal - Building a RAG Pipeline with AWS Bedrock, OpenSearch, and LangChain](https://tarunaga.medium.com/building-a-rag-pipeline-with-aws-bedrock-opensearch-and-langchain-71fdbc7e8733) - A medium article detailing how to build a RAG pipeline that generates text embeddings, stores them in OpenSearch, and processes documents with LangChain
+* [Cian Clarke - Retrieval Augmented Generation with Amazon OpenSearch Vector DB & Langchain](https://www.cianclarke.com/blog/aws-opensearch-and-langchain/) - A personal blog post explaining how to use OpenSearch as a vector database with Langchain for RAG applications
 
 ## Documentation
 
@@ -64,6 +66,7 @@ This list was inspired by [awesome-search](https://github.com/frutik/awesome-sea
 * [Power Neural Search with AI/ML Connectors in Amazon OpenSearch Service](https://aws.amazon.com/blogs/big-data/power-neural-search-with-ai-ml-connectors-in-amazon-opensearch-service/) - Demonstrates how to configure AI/ML connectors to external models through the OpenSearch Service console
 * [Agentic Search LLM Generated Type](https://github.com/opensearch-project/ml-commons/blob/main/docs/tutorials/agentic_search/agentic_search_llm_generated_type.md) - Using LLMs to generate search types
 * [Agentic Memory with Strands Agent](https://github.com/opensearch-project/ml-commons/blob/main/docs/tutorials/agentic_memory/agentic_memory_with_strands_agent.md) - Implementing memory for agents
+* [Kirponik - Building a 'Chat with Your Logs' System](https://dev.to/kirponik/building-a-chat-with-your-logs-system-on-aws-using-opensearch-serverless-and-bedrock-57g2) - A tutorial on creating a conversational AIOps system that allows users to query logs in natural language using OpenSearch
 
 ## Video Content
 
