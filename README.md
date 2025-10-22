@@ -2,7 +2,7 @@
 
 ![OpenSearch Logo](https://opensearch.org/assets/img/opensearch-logo-themed.svg)
 
-A curated list of awesome resources for OpenSearch AI integrations, frameworks, and tools. Focused on generative AI, agents, and related technologies.  We aren't trying to cover the vector space or the hybrid query space.
+A curated list of awesome resources for OpenSearch AI integrations, frameworks, and tools. Focused on generative AI, agents, and related technologies. This list does not cover vector space or hybrid query capabilities, which are documented elsewhere.
 
 :star: Star us on GitHub — it helps!
 
@@ -15,7 +15,7 @@ This list was inspired by [awesome-search](https://github.com/frutik/awesome-sea
 - [Documentation](#documentation)
 - [Tutorials](#tutorials)
 - [Video Content](#video-content)
-- [Projects](#projects)
+- [Related Projects](#related-projects)
 - [Related Lists](#related-lists)
 
 ## Conferences and Events
@@ -33,11 +33,11 @@ This list was inspired by [awesome-search](https://github.com/frutik/awesome-sea
 * [Using OpenSearch for Retrieval Augmented Generation (RAG)](https://opensearch.org/blog/using-opensearch-for-retrieval-augmented-generation-rag/) - Leveraging OpenSearch in RAG architectures
 * [Introducing Semantic Highlighting in OpenSearch](https://opensearch.org/blog/introducing-semantic-highlighting-in-opensearch/) - New features for semantic search visualization
 * [Neural Sparse Models Are Now Available in Hugging Face Sentence Transformers](https://opensearch.org/blog/neural-sparse-models-are-now-available-in-hugging-face-sentence-transformers/) - Integration with popular transformer models
-* [Introducing MCP in OpenSearch](https://opensearch.org/blog/introducing-mcp-in-opensearch/) - Overview of the Multi-model Computation Protocol
+* [Introducing MCP in OpenSearch](https://opensearch.org/blog/introducing-mcp-in-opensearch/) - Overview of the Model Context Protocol
 * [OpenSearch Generative AI](https://opensearch.org/blog/opensearch-generative-ai/) - Introduction to generative AI capabilities
 * [Unlocking Agentic AI Experiences with OpenSearch](https://opensearch.org/blog/unlocking-agentic-ai-experiences-with-opensearch/) - Building AI agents with OpenSearch
-* [Tarun Agarwal - Building a RAG Pipeline with AWS Bedrock, OpenSearch, and LangChain](https://tarunaga.medium.com/building-a-rag-pipeline-with-aws-bedrock-opensearch-and-langchain-71fdbc7e8733) - A medium article detailing how to build a RAG pipeline that generates text embeddings, stores them in OpenSearch, and processes documents with LangChain
-* [Cian Clarke - Retrieval Augmented Generation with Amazon OpenSearch Vector DB & Langchain](https://www.cianclarke.com/blog/aws-opensearch-and-langchain/) - A personal blog post explaining how to use OpenSearch as a vector database with Langchain for RAG applications
+* [Tarun Agarwal - Building a RAG Pipeline with AWS Bedrock, OpenSearch, and LangChain](https://tarunaga.medium.com/building-a-rag-pipeline-with-aws-bedrock-opensearch-and-langchain-71fdbc7e8733) - A Medium article detailing how to build a RAG pipeline that generates text embeddings, stores them in OpenSearch, and processes documents with LangChain
+* [Cian Clarke - Retrieval Augmented Generation with Amazon OpenSearch Vector DB & LangChain](https://www.cianclarke.com/blog/aws-opensearch-and-langchain/) - A personal blog post explaining how to use OpenSearch as a vector database with LangChain for RAG applications
 
 ## Documentation
 
@@ -61,7 +61,7 @@ This list was inspired by [awesome-search](https://github.com/frutik/awesome-sea
 
 * [OpenSearch ML Quickstart](https://github.com/Jon-AtAWS/opensearch-ml-quickstart) - A repository with examples and demos for getting started with ML in OpenSearch
 * [RAG Tutorials](https://docs.opensearch.org/latest/tutorials/gen-ai/rag/index/) - Collection of ML tutorials showing how to implement RAG with different models and platforms
-* [Zero to RAG: A Quick OpenSearch Vector Database and DeepSeek Integration Guide](https://opensearch.org/blog/deepseek-integration-rag/) - A practical guide for setting up a RAG system using OpenSearch and DeepSeek model in just 5 minutes
+* [Zero to RAG: A Quick OpenSearch Vector Database and DeepSeek Integration Guide](https://opensearch.org/blog/deepseek-integration-rag/) - A practical guide for setting up a RAG system using OpenSearch and the DeepSeek model in just 5 minutes
 * [Build Conversational AI Search with Amazon OpenSearch Service](https://aws.amazon.com/blogs/big-data/build-conversational-ai-search-with-amazon-opensearch-service/) - Explains how to implement conversational search using OpenSearch's agents and tools feature
 * [Power Neural Search with AI/ML Connectors in Amazon OpenSearch Service](https://aws.amazon.com/blogs/big-data/power-neural-search-with-ai-ml-connectors-in-amazon-opensearch-service/) - Demonstrates how to configure AI/ML connectors to external models through the OpenSearch Service console
 * [Agentic Search LLM Generated Type](https://github.com/opensearch-project/ml-commons/blob/main/docs/tutorials/agentic_search/agentic_search_llm_generated_type.md) - Using LLMs to generate search types
