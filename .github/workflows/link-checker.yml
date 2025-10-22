@@ -1,0 +1,46 @@
+name: Check Links in README
+
+on:
+  # Run on PRs that modify the README
+  pull_request:
+    paths:
+      - 'README.md'
+  # Run on pushes to main
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+  # Allow manual trigger
+  workflow_dispatch:
+  # Run weekly to catch links that break over time
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at midnight UTC
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Check links in README.md
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Check all markdown files
+          args: --verbose --no-progress '**/*.md'
+          # Fail the job if broken links are found
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      
+      - name: Create Issue From File
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Broken links detected in README.md'
+          content-filepath: ./lychee/out.md
+          labels: |
+            bug
+            documentation

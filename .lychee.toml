@@ -1,0 +1,64 @@
+# Lychee configuration file
+# Documentation: https://github.com/lycheeverse/lychee
+
+# Maximum number of concurrent link checks
+max_concurrency = 10
+
+# Follow redirects
+follow_redirects = true
+
+# Maximum number of redirects to follow
+max_redirects = 5
+
+# Accept invalid SSL certificates (use with caution)
+accept = ["200..=299", "403", "429"]
+
+# Timeout for each request in seconds
+timeout = 30
+
+# User agent to use for requests
+user_agent = "Mozilla/5.0 (compatible; AwesomeOpenSearchAI-LinkChecker/1.0)"
+
+# Headers to send with requests
+headers = [
+    "Accept=text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+]
+
+# Exclude patterns (regex)
+exclude = [
+    # Exclude localhost and local IPs
+    "^https?://localhost",
+    "^https?://127\\.0\\.0\\.1",
+    "^https?://0\\.0\\.0\\.0",
+    # Exclude example domains
+    "^https?://example\\.(com|org|net)",
+]
+
+# Cache results to speed up subsequent runs
+cache = true
+
+# Include verbosity in output
+verbose = "info"
+
+# Check for fragments/anchors in URLs
+include_fragments = false
+
+# Retry failed requests
+max_retries = 3
+
+# Retry codes - retry on these HTTP status codes
+retry_wait_time = 5
+
+# Exclude specific status codes from being treated as errors
+# 403: Forbidden - Some sites block automated tools but the page exists
+# 429: Too Many Requests - Rate limited but the page exists
+exclude_all_private = false
+
+# Follow links in HTML files
+parse_html = false
+
+# Check links in markdown files
+include = ["\\.md$"]
+
+# Scheme to check
+scheme = ["https", "http"]
