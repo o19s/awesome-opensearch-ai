@@ -2,7 +2,7 @@
 
 ![OpenSearch Logo](https://opensearch.org/assets/img/opensearch-logo-themed.svg)
 
-A curated list of awesome resources for OpenSearch AI integrations, frameworks, and tools. Focused on generative AI, agents, and related technologies.  We aren't trying to cover the vector space or the hybrid query space.
+A curated list of awesome resources for OpenSearch AI integrations, frameworks, and tools. Focused on generative AI, agents, and related technologies. We aren't trying to cover the vector space or the hybrid query space.
 
 :star: Star us on GitHub — it helps!
 
