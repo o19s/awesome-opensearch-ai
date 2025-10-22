@@ -84,3 +84,13 @@ This list was inspired by [awesome-search](https://github.com/frutik/awesome-sea
 ## Contributing
 
 Your contributions are always welcome! Please feel free to submit a Pull Request.
+
+### Link Checking
+
+We automatically check all links in this repository to ensure they remain valid:
+
+- **Automated checks**: GitHub Actions runs link checks on every PR and weekly
+- **Local checks**: Run `./check-links.sh` before committing (requires [lychee](https://github.com/lycheeverse/lychee))
+- **CI/CD**: Pull requests will fail if broken links are detected
+
+See [LINK_CHECK_REPORT.md](LINK_CHECK_REPORT.md) for the latest link verification status.
